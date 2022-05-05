@@ -3,6 +3,7 @@ import PortalPage from "./pages/PortalPage";
 import UseStatePage from "./pages/UseStatePage";
 import UseRefPage from "./pages/UseRefPage";
 import UseContextPage from "./pages/UseContextPage";
+import UseMemoPage from "./pages/UseMemoPage";
 import Home from "./pages/Home";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Route path="/useState" element={<UseStatePage />} />
       <Route path="/useRef" element={<UseRefPage />} />
       <Route path="/useContext" element={<UseContextPage />} />
+      <Route path="/useMemo" element={<UseMemoPage />} />
     </Routes>
   );
 }
