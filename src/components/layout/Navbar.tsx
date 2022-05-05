@@ -9,6 +9,7 @@ const Navbar = () => {
       <Link to="/useRef">useRef</Link>
       <Link to="/useContext">useContext</Link>
       <Link to="/useMemo">useMemo</Link>
+      <Link to="/useCallback">useCallback</Link>
     </Nav>
   );
 };

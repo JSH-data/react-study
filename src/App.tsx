@@ -4,6 +4,7 @@ import UseStatePage from "./pages/UseStatePage";
 import UseRefPage from "./pages/UseRefPage";
 import UseContextPage from "./pages/UseContextPage";
 import UseMemoPage from "./pages/UseMemoPage";
+import UseCallbackPage from "./pages/UseCallbackPage";
 import Home from "./pages/Home";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route path="/useRef" element={<UseRefPage />} />
       <Route path="/useContext" element={<UseContextPage />} />
       <Route path="/useMemo" element={<UseMemoPage />} />
+      <Route path="/useCallback" element={<UseCallbackPage />} />
     </Routes>
   );
 }
