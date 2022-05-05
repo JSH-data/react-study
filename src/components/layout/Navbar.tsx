@@ -6,6 +6,7 @@ const Navbar = () => {
     <Nav>
       <Link to="/portal">portal</Link>
       <Link to="/useState">useState</Link>
+      <Link to="/useRef">useRef</Link>
     </Nav>
   );
 };
