@@ -11,6 +11,7 @@ function UseCallbackPage() {
       height: `${size}px`,
     };
   }, [size]);
+  // useCallback을 사용하여 다크 모드 변경시에도 createBoxStyle이 새롭게 만들어지지 않습니다
   return (
     <div
       style={{

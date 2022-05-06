@@ -26,7 +26,7 @@
 
    - `/useCallback` 주소에서 테스트 할 수 있습니다.
 
-7. render (예정)
+7. render
 
    - `/render` 주소에서 테스트 할 수 있습니다.
 

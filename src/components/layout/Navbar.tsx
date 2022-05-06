@@ -10,6 +10,7 @@ const Navbar = () => {
       <Link to="/useContext">useContext</Link>
       <Link to="/useMemo">useMemo</Link>
       <Link to="/useCallback">useCallback</Link>
+      <Link to="/render">render</Link>
     </Nav>
   );
 };
